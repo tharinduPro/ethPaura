@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".AttachCollarActivity" >
+
+    <TextView
+        android:id="@+id/textAttachCollar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/sign_out_background"
+        android:gravity="center"
+        android:text="@string/attach_collar"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textSearchElephant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textAttachCollar"
+        android:layout_below="@+id/textAttachCollar"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/search_elephant"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageElephant"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/textSearchElephant"
+        android:layout_alignRight="@+id/textSearchElephant"
+        android:layout_below="@+id/textSearchElephant"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/elephant" />
+
+    <EditText
+        android:id="@+id/editElephantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageElephant"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textAttachCollar"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editCollarDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textCollarDate"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editCollarDate"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/sign_out_background"
+        android:text="@string/button_submit_elephant_attach_collar_information"
+        android:textColor="@color/text_sub_title_color"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textCollarDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editCollarDate"
+        android:layout_centerVertical="true"
+        android:text="@string/elephant_collared_date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

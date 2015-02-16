@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_bar_back">#262626</color>
+    <color name="background">#E3E3D6</color>
+    <color name="main_text_color">#009933</color>
+    <color name="title_bar_color">#2D2D2A</color>
+    <color name="text_sub_title_color">#F0F0E8</color>
+    <color name="white">#ffffff</color>
+    <color name="backgroundcolor">#E3E3D6</color>
+    <color name="gray">#ffffee</color>
+    <color name="neew">#bdbdb0</color>
+    <color name="Theme_green">#066</color>
+    <color name="dark_gray">#e6e6cf</color>
+    <color name="line">#bbbdb0</color>
+	<color name="loging_submit">#fcd6a2</color>
+</resources>

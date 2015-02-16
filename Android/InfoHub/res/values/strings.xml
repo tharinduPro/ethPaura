@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InfoHub</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_elephant_attack">Add Elephant Attack</string>
+    <string name="elephant_name">Elephant Name</string>
+    <string name="village_name">Village Name</string>
+    <string name="damages">Damages</string>
+    <string name="date">Date</string>
+    <string name="time_of_attack">Time Of Attack</string>
+    <string name="method_of_handling">Method Of Handling</string>
+    <string name="report_of_incident">Report Of Incident</string>
+    <string name="button_submit_add_attack_details">Submit</string>
+    <string name="casualities">Casualities</string>
+    <string name="elephant_type">Type</string>
+    <string name="add_elephant">Add Elephant</string>
+    <string name="elephant_age">Age</string>
+    <string name="elephant_gender">Gender</string>
+    <string name="elephant_male">Male</string>
+    <string name="elephant_female">Female</string>
+    <string name="elephant_habbitat">Habbitat</string>
+    <string name="elephant_description">Description</string>
+    <string name="elephant_photograph">Photograph</string>
+    <string name="button_browse_elephant_photo">Browse</string>
+    <string name="elephant_if_collard">If Collard</string>
+    <string name="elephant_collar_code">Collar Code</string>
+    <string name="elephant_collared_date">Collared Date</string>
+    <string name="button_submit_edited_elephant_information">Submit</string>
+    <string name="student_name">AYESHA DILSHANI</string>
+    <string name="student_age">24 Years</string>
+    <string name="button_edit_admin_profile">Edit</string>
+    <string name="admin_gender">Gender</string>
+    <string name="admin_age">Age</string>
+    <string name="admin_occupation">Occupation</string>
+    <string name="admin_phone_number">Phone Number</string>
+    <string name="admin_biblography">Biblography</string>
+    <string name="admin_email">Email</string>
+    <string name="admin_user_type">User Type</string>
+    <string name="answer_questions">Answer Questions</string>
+    <string name="question1">Question1</string>
+    <string name="type_your_answer_here">Type Your Answer Here</string>
+    <string name="button_post_answer">Post</string>
+    <string name="question2">Question2</string>
+    <string name="question3">Question3</string>
+    <string name="attach_collar">Attach Collar</string>
+    <string name="search_elephant">Elephant</string>
+    <string name="button_submit_elephant_attach_collar_information">Submit</string>
+    <string name="elephant_panel">Elephant Panel</string>
+    <string name="remove_elephant">Remove Elephant</string>
+    <string name="edit_elephant">Edit Elephant</string>
+    <string name="edit_admin_profile">Edit Admin Profile</string>
+    <string name="admin_name">Name</string>
+    <string name="admin_male">Male</string>
+    <string name="admin_female">Female</string>
+    <string name="button_submit_edited_admin_information">Submit</string>
+    <string name="general_information_panel">General Information Panel</string>
+    <string name="add_records">Add Records</string>
+    <string name="add_attack_zones">Add Attack Zones</string>
+    <string name="map_death_places">Map Death Places</string>
+    <string name="post_panel">Post Panel</string>
+    <string name="delete_posts">Delete Posts</string>
+    <string name="delete_questions">Delete Questions</string>
+    <string name="button_delete_post">Delete</string>
+    <string name="button_delete_question">Delete</string>
+    <string name="change_privilege_level">Change Privilege Level</string>
+    <string name="button_remove_elephant">Remove</string>
+    <string name="remove_user">Remove User</string>
+    <string name="UserPanel">Remove User</string>
+    <string name="button_remove_user">Remove</string>
+    <string name="button_view_admin_profile">Button View Admin Profile</string>
+    <string name="button_signout_admin_account">Button Signout Admin Account</string>
+    <string name="button_change_admin_photo">Button Change Admin Photo</string>
+    <string name="user_panel">User Panel</string>
+    <string name="elephant_possition">Elephant Possition</string>
+    <string name="retrieve_data">Retrieve Data</string>
+    <string name="map">Map</string>
+    <string name="notifications">Notifications</string>
+
+    <string-array name="Village_array">
+        <item>Kandeketiya</item>
+        <item>Gomadiyagala</item>
+        <item>Weragela</item>
+        <item>Karuwalagaswewa</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string-array name="names_array">
+        <item>Biso manike</item>
+        <item>Raja</item>
+        <item>Anuradha</item>
+        <item>Anusha</item>
+        <item>Indi</item>
+        <item>Jayathu</item>
+        <item>Kumari</item>
+        <item>Mathali</item>
+        <item>Nandi</item>
+        <item>Neela</item>
+        <item>Nalagiri</item>
+        <item>Uthpala</item>
+        <item>Vijaya</item>
+        <item>Wasamba</item>
+    </string-array>
+
+</resources>
