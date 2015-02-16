@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+#page-wrapper {
+position: inherit;
+margin: 0 5% 0 5%;
+padding: 0 30px;
+min-height: 1300px;
+border-left: 0px solid #e7e7e7;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+ background-color: #ddd; 
+ border-color:#ddd;
+}
+.input-group custom-search-form{
+
+width:60%;	
+	}
+	
+	.navbar-inverse {
+ background-color: transparent; 
+ border-color: transparent; 
+}
+
+.navbar-inverse .navbar-toggle {
+border-color: #ddd; 
+}
+
+.navbar {
+
+margin-bottom: -50px;
+}
+
+.container {
+margin-top: -44px;
+
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: transparent;
+margin-top: -1px;
+background-color: #066;
+}
+.navbar-default .navbar-brand {
+
+margin-left: 5%;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+background-color: #ddd;
+color: #fff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+background-color: #ddd;
+}
+
+.prof-left{
+	float:left; 
+	margin-top:-40px;
+	margin-left:10px;
+	}
+	
+
+.prof-back-main{
+	
+	height:150px;}
+	
+.prof-back-wall{
+height:100px;
+background-color:#066;	
+	}
+.prof-name{
+	
+	color:#FFF;
+	margin-top:0px;
+	margin-left: 5%;
+padding-top: 5px;}
+
+.prof-sub{
+	
+	color:#FFF;
+	margin-left:20%;
+	}
+.edit{
+	
+	margin-left:5px;}
+.navbar-brand {
+float: left;
+padding: 5px;
+/* font-size: 18px; */
+/* line-height: 20px; */
+height: 20px;
+}
+.navbar-inverse .navbar-nav>li>a {
+color: #739281;
+}
+.navbar-nav>li>a {
+padding-top: 15px;
+padding-bottom: 10px;
+}

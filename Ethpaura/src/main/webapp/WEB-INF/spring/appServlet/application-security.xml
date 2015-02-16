@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+
+	<http use-expressions="true">
+
+		<intercept-url pattern="/index" access="permitAll" />
+
+		<intercept-url pattern="/register" access="permitAll" />
+		<intercept-url pattern="/user" access="permitAll" />
+		<intercept-url pattern="/addAttackDetails/**" access="permitAll" />
+		<intercept-url pattern="/addDetails" access="permitAll" />
+		<intercept-url pattern="/resources/**" access="permitAll" />
+		<intercept-url pattern="/ethpaura/info/android/**"
+			access="permitAll" />
+		<intercept-url pattern="/img_resources/**" access="permitAll" />
+
+		<intercept-url pattern="/**" access="hasRole('ROLE_USER')" />
+		<form-login login-page="/index" default-target-url='/header'
+			always-use-default-target='true' />
+
+		<!-- <form-login login-page="/index" default-target-url='/ethpaura/info/android/user/all' 
+			always-use-default-target='true' login-processing-url="/mobile/j_spring_security_check" 
+			/> -->
+
+		<logout logout-success-url="/index" delete-cookies="JSESSIONID"
+			invalidate-session="true" />
+
+		<!-- enable remember me -->
+		<remember-me token-validity-seconds="1209600"
+			remember-me-parameter="remember-me" data-source-ref="dataSource" />
+
+	</http>
+
+	<!-- <authentication-manager alias="authenticationManager" erase-credentials="false"> 
+		<authentication-provider> <user-service> <user name="mala" password="qwe" 
+		authorities="Admin" /> </user-service> </authentication-provider> </authentication-manager> -->
+
+	<authentication-manager erase-credentials="false">
+		<authentication-provider>
+			<password-encoder ref="encoder" />
+			<jdbc-user-service data-source-ref="dataSource"
+				users-by-username-query="select username,password,enabled from user where username=?"
+				authorities-by-username-query="select username, role from user where username =?  " />
+		</authentication-provider>
+	</authentication-manager>
+
+	<beans:bean id="encoder"
+		class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder">
+		<beans:constructor-arg name="strength" value="10" />
+	</beans:bean>
+
+</beans:beans>
